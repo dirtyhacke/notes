@@ -7,7 +7,7 @@ const Home = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
 
   // API base URL - adjust this to match your backend URL
-  const API_URL = 'http://localhost:5000/api/notes'; // Change port if needed
+  const API_URL = 'https://notes-e5wl.onrender.com/api/notes'; // Change port if needed
 
   // Update clock every second
   useEffect(() => {
